@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mrgsantiago</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="hero">
+    <div class="container">
+      <div class="hero__about">
+        <h1 class="hero__title">QA-engineer</h1>
+        <h2 class="hero__subtitle">Маргарита Горбачева</h2>
+        <p class="hero__description">
+          На самом деле большинство багов – это фичи, просто не задокументированные
+        </p>
+        <div class="hero_hardskills">
+          <h3 class="hero__hardskills_subtitle">Технические навыки</h3>
+          <p class="hero__hardskills_text">Языки: Python, SQL, HTML, CSS, Javascript</p>
+          <p class="hero__hardskills_text">Базы данных: PostgreSQL, MySQL, SQLite</p>
+          <p class="hero__hardskills_text">API: Postman</p>
+          <p class="hero__hardskills_text">Другое: Jira, YouTrack, Git, CI/CD</p>
+        </div>
+        <button type="button" class="button-link js-open-modal" data-modal="1"> Кредо </button>
+        <div class="hero__links">
+          <a class="hero__link" href="https://github.com/mrgsantiago"><i class='bx bxl-github'></i></a>
+          <a class="hero__link" href="https://t.me/mrg_santiago"><i class='bx bxl-telegram'></i></a>
+        </div>
+      </div>
+      <div class="hero__box">
+        <img class="hero__box-img" src="img.png" alt="Ой.. Это фича">
+      </div>
+    </div>
+    <div class="modal" data-modal="1">
+      <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path
+          d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+      </svg>
+      <p class="modal__title">А мне много не надо… власть над миром и что-нибудь покушать</p>
+      <img class="modal-img"src="cat.gif" alt="Я джифка">
+    </div>
+    <div class="overlay js-overlay-modal"></div>
+  </div>
+  <script type="text/javascript" src="js.js"></script>
+</body>
+
+</html>
